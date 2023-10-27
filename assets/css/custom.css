@@ -1,0 +1,90 @@
+.navbar-brand {
+  font-size: 1.4rem;
+  color: #344050 !important;
+}
+
+.bg-card-gradient {
+  background-image: -o-linear-gradient(135deg, #1970e2, #00d27a);
+  background-image: linear-gradient(-45deg, #1970e2, #00d27a);
+}
+
+.text-green {
+  color: #00d27a;
+}
+
+.text-gray {
+  color: #344050;
+}
+
+.quote {
+  line-height: 10px;
+  font-family: Georgia;
+}
+
+.blockquote {
+  font-family: Georgia, serif;
+  font-size: 28px;
+  width: 500px;
+  padding: 0.35em 14px;
+  line-height: 1.45;
+  position: relative;
+  color: #ffffff;
+}
+
+.blockquote:before {
+  display: block;
+  padding-left: 10px;
+  content: "\201C";
+  font-size: 75px;
+  position: absolute;
+  left: -20px;
+  top: -20px;
+  color: #ffffff;
+}
+
+.blockquote cite {
+  color: #ffffff;
+  font-size: 14px;
+  display: block;
+  margin-top: 5px;
+}
+
+.toggle-icon-wrapper {
+  margin-right: 0.75rem;
+}
+
+/* Select2 Font Size SM */
+.select2 {
+  font-size: .875rem;
+}
+
+.select2-results {
+  font-size: .875rem;
+}
+
+#pin {
+  letter-spacing: .7rem;
+}
+
+#atc-pin {
+  letter-spacing: .9rem;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.badge-sm {
+  padding: .35556em .51111em;
+  font-size: 70%;
+}
+
+@media (min-width:576px) {
+  .modal-xs {
+    max-width: 300px
+  }
+}
+
+@media (min-width:992px) {
+  .modal-md {
+    max-width: 650px
+  }
+}
